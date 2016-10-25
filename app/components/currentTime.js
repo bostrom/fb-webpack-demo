@@ -1,14 +1,13 @@
-angular.module('myapp')
-  .component('currentTime', {
-    template: `
-      <div>{{$ctrl.time | date:'medium'}}</div>
-    `,
-    controller: function($timeout) {
-      var $ctrl = this;
+var css = require('./currentTime.css');
 
-      (function tick() {
-        $ctrl.time = new Date();
-        $timeout(tick, 1000);
-      })();
-    }
-  });
+module.exports = {
+  template: require('./currentTime.html'),
+  controller: function($timeout) {
+    var $ctrl = this;
+
+    (function tick() {
+      $ctrl.time = new Date();
+      $timeout(tick, 1000);
+    })();
+  }
+};

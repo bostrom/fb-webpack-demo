@@ -1,4 +1,3 @@
-angular.module('myapp')
-  .controller('MainCtrl', function() {
-    this.greeting = 'Hello Webpack!';
-  });
+module.exports = function() {
+  this.greeting = 'Hello Webpack!';
+};

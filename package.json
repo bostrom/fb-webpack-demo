@@ -9,12 +9,19 @@
   "author": "Fredrik Boström <fredrik@fredrikbostrom.net>",
   "license": "MIT",
   "scripts": {
-    "serve": "serve"
+    "serve": "serve",
+    "serve:build": "serve build/"
   },
   "dependencies": {
     "angular": "^1.5.8"
   },
   "devDependencies": {
-    "serve": "^1.4.0"
+    "css-loader": "^0.25.0",
+    "html-webpack-plugin": "^2.24.0",
+    "raw-loader": "^0.5.1",
+    "serve": "^1.4.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2"
   }
 }
