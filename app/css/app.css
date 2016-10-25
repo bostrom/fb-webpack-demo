@@ -3,3 +3,9 @@ h1 {
   font-size: 5em;
   text-align: center;
 }
+
+img {
+  display: block;
+  margin: 50px auto;
+  width: 200px;
+}
