@@ -11,9 +11,9 @@
     <div ng-controller="MainCtrl as mainController">
       <h1>{{mainController.greeting}}</h1>
       <current-time></current-time>
-    </div>
 
-    <img src="images/webpack.png" alt="webpack logo" />
+      <img ng-src="{{mainController.logo}}" alt="webpack logo" />
+    </div>
 
   </body>
 </html>
