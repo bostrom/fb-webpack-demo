@@ -1,0 +1,20 @@
+{
+  "name": "fb-webpack-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:bostrom/fb-webpack-demo.git",
+    "type": "git"
+  },
+  "author": "Fredrik Boström <fredrik@fredrikbostrom.net>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "serve"
+  },
+  "dependencies": {
+    "angular": "^1.5.8"
+  },
+  "devDependencies": {
+    "serve": "^1.4.0"
+  }
+}
