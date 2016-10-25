@@ -1,9 +1,4 @@
-angular.module('myapp', [])
-
-  .controller('MainCtrl', function() {
-    this.greeting = 'Hello Webpack!';
-  })
-
+angular.module('myapp')
   .component('currentTime', {
     template: `
       <div>{{$ctrl.time | date:'medium'}}</div>
